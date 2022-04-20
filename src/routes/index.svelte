@@ -5,7 +5,7 @@
 <br>
 <br>
 <div class="box container is-halfheight is-half" style="height:50%;">
-    <div class="columns is- half is-centered is-mobile is-halfheight">
+    <div class="columns is- half is-centered is-halfheight">
         <div class="column">
             <figure class="image is-16x16 is-size-6" style=" height: auto; width: auto; max-width: 100%; max-height: 100%;">
                 <img alt="me" src="../Assets/me.png">
