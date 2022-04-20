@@ -1,10 +1,10 @@
 <script>
 let active = false
 </script>
-<nav class="navbar" role="navigation" aria-label="main navigation" style="width: 100%; position: fixed;">
+<nav class="navbar" role="navigation" aria-label="main navigation" style="width: 100%; position: fixed; border-bottom: 1px solid;">
     <div class="navbar-brand">
-        <a class="navbar-item" href="https://bulma.io">
-            <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+        <a class="navbar-item">
+            <strong class="title"> Eduard Faus </strong>
         </a>
 
         <a role="button" class="navbar-burger" on:click="{() => active = !active}" class:is-active={active} aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
