@@ -1,10 +1,13 @@
-<nav class="navbar" role="navigation" aria-label="main navigation">
+<script>
+let active = false
+</script>
+<nav class="navbar" role="navigation" aria-label="main navigation" style="width: 100%; position: fixed;">
     <div class="navbar-brand">
         <a class="navbar-item" href="https://bulma.io">
             <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
         </a>
 
-        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <a role="button" class="navbar-burger" on:click="{() => active = !active}" class:is-active={active} aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
@@ -13,8 +16,8 @@
 
     <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-start">
-            <a class="navbar-item">
-                Home
+            <a on:click={document.getElementById('aboutme').scrollIntoView()} class="navbar-item">
+                About Me
             </a>
 
             <a class="navbar-item">
