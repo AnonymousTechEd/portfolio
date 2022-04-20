@@ -2,9 +2,9 @@
     import Navbar from "../Components/navbar.svelte";
 </script>
 <Navbar />
-<br>
-<br>
 <div id="aboutme" class="box container is-halfheight is-half" style="height:50%;">
+    <br>
+    <br>
     <div class="columns is- half is-centered is-halfheight">
         <div class="column">
             <figure class="image is-16x16 is-size-6" style=" height: auto; width: auto; max-width: 100%; max-height: 100%;">
@@ -42,7 +42,7 @@
         </div>
     </div>
 </div>
-<div class="container box has-text-centered">
+<div id="projects" class="container box has-text-centered">
     <h1 class ="title is-1 ">My Projects</h1>
     <br>
     <p class="subtitle">
@@ -51,7 +51,7 @@
        <li> vLex Chrome Extension  </li>
     </p>
 </div>
-<div class="container box has-text-centered">
+<div id="daysofcode" class="container box has-text-centered">
     <h1 class ="title is-1 ">#100 Days of Code</h1>
     <br>
     <p class="subtitle">
@@ -60,8 +60,8 @@
     <li> vLex Chrome Extension
     </p>
 </div>
-<div class="container box has-text-centered">
-    <h1 class ="title is-1 ">#My Articles</h1>
+<div id="articles" class="container box has-text-centered">
+    <h1 class ="title is-1 ">My Articles</h1>
     <br>
     <p class="subtitle">
         <li> vLex Chrome Extension
@@ -69,8 +69,8 @@
     <li> vLex Chrome Extension
     </p>
 </div>
-<div class="container box has-text-centered">
-    <h1 class ="title is-1 ">#Books I Like</h1>
+<div id="books" class="container box has-text-centered">
+    <h1 class ="title is-1 ">CS Books I Recommend</h1>
     <br>
     <p class="subtitle">
         <li> vLex Chrome Extension

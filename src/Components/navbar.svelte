@@ -14,47 +14,30 @@ let active = false
         </a>
     </div>
 
-    <div id="navbarBasicExample" class="navbar-menu">
+    <div id="navbarBasicExample" class:is-active={active} class="navbar-menu">
         <div class="navbar-start">
-            <a on:click={document.getElementById('aboutme').scrollIntoView()} class="navbar-item">
+            <a href="#aboutme" class="navbar-item">
                 About Me
             </a>
-
-            <a class="navbar-item">
-                Documentation
+            <a href="#projects" class="navbar-item">
+                Projects
             </a>
-
-            <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link">
-                    More
-                </a>
-
-                <div class="navbar-dropdown">
-                    <a class="navbar-item">
-                        About
-                    </a>
-                    <a class="navbar-item">
-                        Jobs
-                    </a>
-                    <a class="navbar-item">
-                        Contact
-                    </a>
-                    <hr class="navbar-divider">
-                    <a class="navbar-item">
-                        Report an issue
-                    </a>
-                </div>
-            </div>
+            <a href="#daysofcode" class="navbar-item">
+                100 Days of Code
+            </a>
+            <a href="#articles" class="navbar-item">
+               Articles
+            </a>
+            <a href="#books" class="navbar-item">
+                Books
+            </a>
         </div>
 
         <div class="navbar-end">
             <div class="navbar-item">
                 <div class="buttons">
-                    <a class="button is-primary">
-                        <strong>Sign up</strong>
-                    </a>
-                    <a class="button is-light">
-                        Log in
+                    <a href="https://github.com/edufaus/portfolio" class="button is-dark">
+                        View Code on GitHub
                     </a>
                 </div>
             </div>
